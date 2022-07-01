@@ -11,7 +11,7 @@ async def ping(_, message):
     rm = await message.reply_text("...🤔")
     end_t = time.time()
     time_taken_s = (end_t - start_t) * 1000
-    await rm.edit(f"Pong😜😜!\n{time_taken_s:.3f} ms\n \n **~ @KoshikKumar17**")
+    await rm.edit(f"Pong😜😜!\n{time_taken_s:.3f} ms\n \n **~ @Justinvrgs**")
 
 
 @Client.on_message(filters.command(["stickerid"]))
@@ -19,7 +19,7 @@ async def stickerid(bot, message):
     p = await message.reply_text("**Processing...⏳**",quote=True)   
     if message.reply_to_message.sticker:
        await message.reply_chat_action("typing")
-       await p.edit(f"**Sticker ID is**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`\n \n**@KoshikKumar17**")
+       await p.edit(f"**Sticker ID is**  \n `{message.reply_to_message.sticker.file_id}` \n \n ** Unique ID is ** \n\n`{message.reply_to_message.sticker.file_unique_id}`\n \n**@Justinvrgs**")
     else: 
        await p.edit("Oops !! Not a sticker file")
 
