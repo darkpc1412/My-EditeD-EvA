@@ -5,7 +5,7 @@ import pyrogram
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BTN = InlineKeyboardMarkup([[InlineKeyboardButton('💡 Source 💡', url='tg://openmessage?user_id=1857338892')],[InlineKeyboardButton('Inspire Me Again!!', callback_data='inspireagain')]])
+BTN = InlineKeyboardMarkup([[InlineKeyboardButton('💡 Source 💡', url='tg://openmessage?user_id=5251446901')],[InlineKeyboardButton('Inspire Me Again!!', callback_data='inspireagain')]])
 
 @Client.on_message(filters.command("inspire"))
 async def inspireme(bot, update):
