@@ -17,12 +17,12 @@ async def share_text(client, message):
         input_text = reply.text or reply.caption
     else:
         await message.reply_text(
-            text=f"**Notice:**\n\n1️⃣. You can reply **Any Messages**.✌️\n2️⃣. It doesn't support any **Media**🙄.\n\n**Any Question Ask @KoshikKumar17**",
+            text=f"**Notice:**\n\n1️⃣. You can reply **Any Messages**.✌️\n2️⃣. It doesn't support any **Media**🙄.\n\n**Any Question Ask @Justinvrgs**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "💛 Father 💛", url="https://t.me/KoshikKumar17"
+                            "💛 Father 💛", url="https://t.me/Justinvrgs"
                         )
                     ]
                 ]
