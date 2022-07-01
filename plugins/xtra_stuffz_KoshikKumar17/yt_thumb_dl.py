@@ -26,7 +26,7 @@ async def send_thumbnail(bot, update):
         )
         await update.reply_photo(
             photo=thumbnail,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⭕Source⭕', url='https://t.me/KoshikKumar17')]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⭕Source⭕', url='https://t.me/mnxmovies124')]]),
             quote=True
         )
         await message.delete()
@@ -34,5 +34,5 @@ async def send_thumbnail(bot, update):
         await message.edit_text(
             text="**Please Use** /ytthumb (youtube link)\n\n**Example:** `/ytthumb https://youtu.be/abcdefghij`",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('JOIN UPDATE CHANNEL', url='https://t.me/KoshikKumar17')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('JOIN UPDATE CHANNEL', url='https://t.me/+RjWVT5hMrq1kYjE1')]])
         )
