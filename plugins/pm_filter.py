@@ -29,7 +29,7 @@ logger.setLevel(logging.ERROR)
 
 BUTTONS = {}
 SPELL_CHECK = {}
-BMW = InlineKeyboardMarkup([[InlineKeyboardButton('💡 Source 💡', url='tg://openmessage?user_id=1857338892')],[InlineKeyboardButton('Inspire Me Again!!', callback_data='inspireagain')]])
+BMW = InlineKeyboardMarkup([[InlineKeyboardButton('💡 Source 💡', url='tg://openmessage?user_id=5251446901')],[InlineKeyboardButton('Inspire Me Again!!', callback_data='inspireagain')]])
 
 
 @Client.on_message(filters.group & filters.text & ~filters.edited & filters.incoming)
@@ -450,7 +450,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('💡 Updates 💡', url='https://t.me/KoshikKumar17'),
+            InlineKeyboardButton('💡 Updates 💡', url='https://t.me/+RjWVT5hMrq1kYjE1'),
             InlineKeyboardButton('✨ Source ✨', callback_data='source')
         ], [
             InlineKeyboardButton('🏡  Home 🏡', callback_data='start'),
