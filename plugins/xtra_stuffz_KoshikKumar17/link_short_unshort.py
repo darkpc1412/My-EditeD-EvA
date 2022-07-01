@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 API = "https://short-link-api.vercel.app/?query="
 IPA = "https://unshorten.me/json/"
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ ❤️ 😁 Made By 😁 ❤️ ✨', url='https://t.me/KoshikKumar17')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('✨ ❤️ 😁 Made By 😁 ❤️ ✨', url='https://t.me/Justinvrgs')]])
 
 @Koshik.on_message(filters.command("short"))
 async def linkshortener(bot, update):
@@ -38,7 +38,7 @@ def shortlink(type):
 **ISGD:-** {isgd}\n
 **OSDBLINK:-** {osdb}\n
 **TTMSH:-** {ttm}\n
-\n**•| @KoshikKumar17 |•**"""
+\n**•| @Justinvrgs |•**"""
 
     except Exception as error:
         return error
@@ -65,7 +65,7 @@ def longlink(type):
 **Short Url **:- {rqrl}\n
 **Long ** {rerl}
 
-\n**•| @KoshikKumar17 |•**"""
+\n**•| @Justinvrgs |•**"""
 
     except Exception as error:
         return error
