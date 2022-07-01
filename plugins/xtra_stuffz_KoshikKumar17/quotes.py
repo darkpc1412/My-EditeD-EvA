@@ -9,7 +9,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 A = """{} with user id:- {} used /quote command."""
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖✨🇮🇳  Made By 🇮🇳✨💖', url='https://t.me/KoshikKumar17')],[InlineKeyboardButton('List All Types of Quote Categories', callback_data='qtstags')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖✨🇮🇳  Made By 🇮🇳✨💖', url='https://t.me/Justinvrgs')],[InlineKeyboardButton('List All Types of Quote Categories', callback_data='qtstags')]])
 
 @Client.on_message(filters.command("quote"))
 async def get_quote(bot, message):
@@ -26,7 +26,7 @@ async def get_quote(bot, message):
     athr = result['author']
     tgs = result['tags']
     gett_qt = f"""**{qt}**\n                  - __{athr}__\n\nCategory:- {tgs}
-\n **@KoshikKumar17** 💖 🇮🇳"""
+\n **@Justinvrgs** 💖 🇮🇳"""
     await k.edit_text(
         text=gett_qt,
         disable_web_page_preview=True,
