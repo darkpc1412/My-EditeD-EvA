@@ -133,7 +133,7 @@ You can deploy this bot anywhere.
 
 **OR**
 
-<a href="https://heroku.com/deploy?template=https://github.com/KoshikKumar17/My-EditeD-EvA">
+<a href="https://heroku.com/deploy?template=https://github.com/darkpc1412/My-EditeD-EvA">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
