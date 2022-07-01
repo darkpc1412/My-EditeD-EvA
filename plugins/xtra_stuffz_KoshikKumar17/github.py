@@ -8,7 +8,7 @@ from pyrogram import Client as Koshik
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/KoshikKumar17')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/Justinvrgs')]])
 A = """{} with user id:- {} used /git command."""
 
 @Koshik.on_message(filters.command(["github", "git"]))
@@ -46,7 +46,7 @@ async def getgithub(bot, message):
 **Followers:** `{followers}`
 **Following:** `{following}`
 
-**@KoshikKumar17**"""
+**@Justinvrgs**"""
     await message.reply_photo(photo=avatar_url, caption=capy, reply_markup=BUTTONS)
     await bot.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id)) 
     await k.delete()
