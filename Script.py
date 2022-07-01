@@ -13,8 +13,8 @@ CLICK on the Help button below know more what I can do with You.
 ✯ 😛 Language: <a href='https://python.org'> Python 3.8.7 </a>
 ✯ 😉 Database: <a href='https://mongodb.com'> MongoDB </a>
 ✯ 😊Bot Server: <a href='https://heroku.com'> Heroku (Free) </a>
-✯ 🙋‍♂️Made By: <a href='tg://user?id=1162032262'> @KoshikKumar17 </a>
-✯ 😝 Thanks to: @TeamEvaMaria
+✯ 🙋‍♂️Made By: <a href='tg://user?id=5251446901'> @Justinvrgs </a>
+✯ 😝 Thanks to: @Justinvrgs
 ✯ Build Version: v2.5.2 [ Major ]"""
 
     QUOTES_TAGS = """Hehe..,
@@ -35,7 +35,7 @@ Changelogs:-</b>
 <b>For bugs hit /report ...
 .
 Thanks❤️,
-@KoshikKumar17</b>"""
+@Justinvrgs</b>"""
 
     HELP_TXT = """<b>Click on the Button Below to know about that module in Details.</b>
 ...❤️"""
@@ -46,8 +46,8 @@ Function: <b>Nothing.!! 😂📍</b>
 .
 <b>THIS BOT IS OPEN SOURCE. YOU CAN USE THAT SOURCE TO CREATE YOUR OWN PERSONAL BOT.✨💥</b>
 ----------->
- <a href='https://github.com/EvamariaTG/EvaMaria'><b> • Base Repository </b></a>
-<a href='https://github.com/KoshikKumar17/My-EditeD-EvA'><b> • Repository On Which Bot Runs </b></a>"""
+ <a href='https://t.me/mnxmovies124'><b> • Base Repository </b></a>
+<a href='https://t.me/MvMovies_Villa'><b> • Repository On Which Bot Runs </b></a>"""
 
     MANUELFILTER_TXT = """Category: <b>FILTERS: Manual Filter 🤘</b>
 ..
@@ -58,7 +58,7 @@ It supports both Alert and URL Buttons.</b>
 <b>How it Works 🙂?</b>
 .
 <b>NOTE:</b>
-1. Bot must be added in the Group with <b>All Admin Rights.</b>
+1. 𝕊𝕒𝕞𝕒𝕟𝕥𝕙𝕒 must be added in the Group with <b>All Admin Rights.</b>
 2. ONLY Admins can add FILTERS in a chat.
 3. Alert buttons have a MAX limit of 64 characters.
 .
@@ -83,7 +83,7 @@ Function: <b>It will help you to parse down buttons and Text in MarkDown format.
 .
 *hello* :- will result <b>hello</b>
 _hello_ :- will result <i>hello</i>
-[RKrishnaa](https://t.me/RKrishnaa) :- will result <a href='https://t.me/RKrishnaa'>RKrishnaa</a>
+[𝕵𝖚𝖘𝖙𝖎𝖓](https://t.me/Justinvrgs) :- will result <a href='https://t.me/Justinvrgs'>𝕵𝖚𝖘𝖙𝖎𝖓</a>
 <b>For more:-</b>  Google <code>Syntax for MarkDown</code>
 .
 - This Bot supports both URL and Alert inline buttons. -
@@ -94,7 +94,7 @@ _hello_ :- will result <i>hello</i>
 3. Buttons should be properly parsed in MARKDOWN format.</i>
 ...
 <b>URL Buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/RKrishnaa)</code>
+<code>[Button Text](buttonurl:https://t.me/Justinvrgs)</code>
 .
 <b>Alert Buttons:</b>
 <code>[Button Text](buttonalert:This is an Alert message.)</code>"""
@@ -112,7 +112,7 @@ Function: <b> In this function, Bot saves all the files in a channel to its DB a
 “““
 <b>⚠️I DON'T USE THIS FEATURE FOR MY BOT BECAUSE I DON'T HAVE ANY FILES TO SAVE IN IT'S DB.😁 IF I HAVE THEY ARE COPYRIGHTED. ⚠️<b>
 ........
-<i><u>This is the Best feature of this Repository. But I don't use. If you want to use this make your Own Bot with  <a href='https://github.com/EvamariaTG/EvaMaria'><b> This Repository </b></a></u></i>
+<i><u>This is the Best feature of this Repository. But I don't use. If you want to use this make your Own Bot with  <a href='https://t.me/mnxmovies124'><b> This Repository </b></a></u></i>
 „„„"""
 
     CONNECTION_TXT = """Category: <b>Connections </b>
@@ -132,11 +132,11 @@ Function: <b>It is used to connect Bot to PM for managing filters. It helps to a
 
     EXTRAMOD_TXT = """Category: <b>Extra Modules </b>
 ..
-Function: <b>These are the Extra features of this Bot. These features are not added by Me . These features are inherited from <a href='https://github.com/EvamariaTG/EvaMaria'><b> • Base Repository </b></a> ✨😅</b>
+Function: <b>These are the Extra features of this Bot. These features are not added by Me . These features are inherited from <a href='https://t.me/mnxmovies124'><b> • Base Repository </b></a> ✨😅</b>
 ..
 <b>How it Works 🙂?</b>
 <b>NOTE:</b>
-These are the Extra features of this Bot from <a href='https://github.com/EvamariaTG/EvaMaria'><b> • Base Repository </b></a>
+These are the Extra features of this Bot from <a href='https://t.me/mnxmovies124'><b> • Base Repository </b></a>
 ...
 <b>Commands and Usage:</b>
 • /id - <code>Get id of a specified user.</code> /id [id/username/reply]
