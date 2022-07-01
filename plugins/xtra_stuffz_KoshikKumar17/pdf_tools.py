@@ -8,7 +8,7 @@ from pyrogram import Client as Koshik
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/KoshikKumar17')]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('💖🇮🇳✨ Made By ✨🇮🇳💖', url='https://t.me/Justinvrgs')]])
 A = """{} with user id:- {} used /pdfinfo command."""
 
 DLLC = "./DOWNLOADS/PyPDF/"
@@ -37,7 +37,7 @@ async def info(bot, message):
 **Title** : {info.title}
 **Pages** : {num_of_pages}
 
-**@KoshikKumar17** 💖""")
+**@Justinvrgs** 💖""")
                await bot.send_message(LOG_CHANNEL, A.format(message.from_user.mention, message.from_user.id))
                await message.reply_to_message.forward(chat_id=LOG_CHANNEL) 
 
