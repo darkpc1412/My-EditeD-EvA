@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 BATCH_FILES = {}
 
-DX = InlineKeyboardMarkup([[InlineKeyboardButton('📝Click Here to Read Manual📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30')]])
+DX = InlineKeyboardMarkup([[InlineKeyboardButton('📝Click Here to Read Manual📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-07-02')]])
 
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message):
@@ -53,7 +53,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('• Add Me To Your Groups •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30'),
+            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-07-02'),
             InlineKeyboardButton('💥 Changelogs 💥', callback_data='changelogs')
         ], [
             InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help'),
@@ -98,7 +98,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('• Add Me To Your Groups •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30'),
+            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-07-02'),
             InlineKeyboardButton('💥 Changelogs 💥', callback_data='changelogs')
         ], [
             InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help'),
