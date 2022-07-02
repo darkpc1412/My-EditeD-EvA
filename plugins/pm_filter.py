@@ -433,7 +433,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('• Add Me To Your Groups •', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-10-30'),
+            InlineKeyboardButton('📝 Manual 📝', url='https://telegra.ph/All-Commands-Lists-Of-This-Bot-07-02'),
             InlineKeyboardButton('💥 Changelogs 💥', callback_data='changelogs')
         ], [
             InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help'),
