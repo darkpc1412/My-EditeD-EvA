@@ -10,7 +10,7 @@ heroku3
 YoutubeTags
 requests
 bs4
-imdbpy
+imdbpy==2021.4.18
 googletrans==4.0.0-rc1
 telegraph
 ytthumb
